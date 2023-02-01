@@ -78,7 +78,7 @@ describe("Central de Atendimento ao Cliente TAT", function () {
       expect(erro.text().trim()).be.eq("Valide os campos obrigatórios!");
     });
   });
-  it.only("Error Sem preencher os campos", () => {
+  it("Error Sem preencher os campos", () => {
     cy.Form();
   });
 });
