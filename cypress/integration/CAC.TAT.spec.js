@@ -1,7 +1,7 @@
 /// <reference types="Cypress" />
 
 describe("Central de Atendimento ao Cliente TAT", function () {
-  this.beforeEach(() => {
+  beforeEach(() => {
     cy.visit("./src/index.html");
   });
   it("verifica o título da aplicação", () => {
